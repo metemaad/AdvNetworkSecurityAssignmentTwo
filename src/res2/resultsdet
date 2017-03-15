@@ -1,0 +1,5 @@
+IP|172.16.2.12:228 -> 172.16.3.2:92 permitted :  ACL#:access-list 2 permit 172.16.0.0 0.0.255.255
+IP|172.17.2.12:180 -> 172.16.3.2:106 denied : no ACL command for this packet.
+IP|172.16.4.13:69 -> 72.6.3.2:130 denied :  ACL#:access-list 2 deny 172.16.4.13 0.0.0.0
+IP|172.18.4.13:222 -> 17.1.5.1:170 denied : no ACL command for this packet.
+IP|172.16.4.17:5 -> 12.5.5.1:117 permitted :  ACL#:access-list 2 permit 172.16.0.0 0.0.255.255

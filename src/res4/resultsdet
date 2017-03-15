@@ -1,0 +1,25 @@
+TCP|172.16.2.12:5000 -> 172.16.3.2:20 denied :  ACL#:access-list 101 deny tcp 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255 eq 20
+TCP|172.16.2.12:5000 -> 172.16.3.2:80 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.2.13:5000 -> 72.6.3.2:80 denied : no ACL command for this packet.
+IP|172.18.4.13:5800 -> 17.1.5.1:99 denied : no ACL command for this packet.
+TCP|172.16.4.17:5000 -> 12.5.5.1:21 denied : no ACL command for this packet.
+TCP|172.16.2.12:5000 -> 172.16.3.2:21 denied :  ACL#:access-list 101 deny tcp 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255 eq 21
+TCP|172.16.2.12:5000 -> 172.16.3.2:80 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.2.13:5000 -> 172.16.3.5:20 denied :  ACL#:access-list 101 deny tcp 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255 eq 20
+IP|172.16.5.13:5800 -> 17.1.5.1:99 denied : no ACL command for this packet.
+TCP|172.16.4.17:245 -> 172.16.3.7:74 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+IP|172.18.4.13:229 -> 17.1.5.1:196 denied : no ACL command for this packet.
+TCP|172.16.4.17:7 -> 12.5.5.1:174 denied : no ACL command for this packet.
+TCP|172.16.2.12:32 -> 172.16.3.2:128 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.2.12:9 -> 172.16.3.2:104 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.2.13:112 -> 172.16.3.5:102 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+IP|172.16.5.13:76 -> 17.1.5.1:192 denied : no ACL command for this packet.
+TCP|172.16.4.17:158 -> 172.16.3.7:123 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.4.17:160 -> 172.16.3.7:146 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+IP|172.18.4.13:149 -> 17.1.5.1:103 denied : no ACL command for this packet.
+TCP|172.16.4.17:73 -> 12.5.5.1:174 denied : no ACL command for this packet.
+TCP|172.16.2.12:220 -> 172.16.3.2:138 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.2.12:213 -> 172.16.3.2:223 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+TCP|172.16.2.13:24 -> 172.16.3.5:199 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255
+IP|172.16.5.13:46 -> 17.1.5.1:143 denied : no ACL command for this packet.
+TCP|172.16.4.17:136 -> 172.16.3.7:12 permitted :  ACL#:access-list 101 permit ip 172.16.0.0 0.0.255.255 172.16.3.0 0.0.0.255

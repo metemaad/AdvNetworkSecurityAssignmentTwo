@@ -1,0 +1,33 @@
+#bash copyresults testdir packets ACLfile
+echo "Current date : $(date) @ $(hostname)"
+echo "Network assignment2"
+echo "Compile main.java"
+sudo javac main.java
+echo "run packet processing on packets file:$2 and ACL file:$3 "
+java main $2 $3 results resultsdet
+echo "deleting $1 directory"
+rm $1 -dr
+echo "copy results to $1 directory"
+mkdir $1
+ cp resultsdet $1/.
+ cp results $1/.
+ cp ACLfile $1/.
+ cp packets $1/.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

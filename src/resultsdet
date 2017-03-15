@@ -1,0 +1,22 @@
+TCP|192.168.2.1:39 -> 192.168.2.135:161 permitted :  ACL#:access-list 103 permit tcp 192.168.2.1 0.0.0.0 192.168.2.0 0.0.0.255 eq 161
+TCP|192.168.2.1:107 -> 192.168.2.26:161 permitted :  ACL#:access-list 103 permit tcp 192.168.2.1 0.0.0.0 192.168.2.0 0.0.0.255 eq 161
+TCP|192.168.2.1:162 -> 192.168.2.193:161 permitted :  ACL#:access-list 103 permit tcp 192.168.2.1 0.0.0.0 192.168.2.0 0.0.0.255 eq 161
+TCP|192.168.2.1:188 -> 192.168.25.235:161 denied :  ACL#:access-list 103 deny tcp 192.168.2.1 0.0.0.0 any eq 161
+TCP|192.168.2.1:185 -> 192.168.235.244:161 denied :  ACL#:access-list 103 deny tcp 192.168.2.1 0.0.0.0 any eq 161
+TCP|192.168.2.1:175 -> 192.168.89.142:161 denied :  ACL#:access-list 103 deny tcp 192.168.2.1 0.0.0.0 any eq 161
+TCP|192.168.2.1:128 -> 192.168.69.106:161 denied :  ACL#:access-list 103 deny tcp 192.168.2.1 0.0.0.0 any eq 161
+TCP|192.168.2.1:2 -> 192.168.90.212:161 denied :  ACL#:access-list 103 deny tcp 192.168.2.1 0.0.0.0 any eq 161
+TCP|192.168.2.1:76 -> 192.168.94.217:161 denied :  ACL#:access-list 103 deny tcp 192.168.2.1 0.0.0.0 any eq 161
+TCP|192.168.1.182:14 -> 192.168.2.1:88 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.172:234 -> 192.168.2.1:189 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:187 -> 192.168.2.212:218 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:243 -> 192.168.2.105:232 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:115 -> 192.168.2.119:229 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:195 -> 192.168.122.42:246 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:81 -> 192.168.148.98:196 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:98 -> 192.168.189.119:41 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:237 -> 192.168.236.88:31 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:159 -> 192.168.55.92:243 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.1:135 -> 192.168.204.228:218 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.1.41:165 -> 192.168.2.1:67 permitted :  ACL#:access-list 103 permit ip any any
+TCP|192.168.2.33:118 -> 192.168.2.1:198 permitted :  ACL#:access-list 103 permit ip any any

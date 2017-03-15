@@ -1,0 +1,5 @@
+IP|172.16.2.12:123 -> 172.16.3.2:101 permitted :  ACL#:access-list 2 permit any
+IP|172.17.2.12:46 -> 172.16.3.2:21 permitted :  ACL#:access-list 2 permit any
+IP|172.16.4.13:72 -> 72.6.3.2:132 denied :  ACL#:access-list 2 deny 172.16.4.13 0.0.0.0
+IP|172.18.4.13:217 -> 17.1.5.1:65 permitted :  ACL#:access-list 2 permit any
+IP|172.16.4.17:192 -> 12.5.5.1:90 permitted :  ACL#:access-list 2 permit any
